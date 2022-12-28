@@ -87,11 +87,18 @@
     "dead-server": "^1.0.9"
   },
   "scripts": {
-    
     "dev": "dead-server --host=localhost --port=4020"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dainiuslio/42-antras-projektas.git"
+  },
   "keywords": [],
   "author": "Dainius (https://github.com/Dainiuslio)",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dainiuslio/42-antras-projektas/issues"
+  },
+  "homepage": "https://github.com/Dainiuslio/42-antras-projektas#readme"
 }
