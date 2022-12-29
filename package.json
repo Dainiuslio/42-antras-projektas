@@ -88,7 +88,7 @@
   },
   "scripts": {
 
-    "dev": "dead-server --host=localhost --port=4020"
+    "dev": "dead-server --host=localhost --port=4020",
 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
