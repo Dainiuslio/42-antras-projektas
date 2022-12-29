@@ -1,15 +1,46 @@
-header { 
-  background-color: yellow;
-   width: 800px;
-   margin-left:calc(50%-400px) ;
+body {
+margin: 0;
 }
-main { 
-  background-color: green;
-   width: 800px;
-   margin-left:calc(50%-400px) ;
-}
+header,
+main,
 footer { 
-  background-color: red;
+
+  background-color: pink;
    width: 800px;
    margin-left:calc(50%-400px) ;
+   margin-bottom:30 px;
+
+}
+
+header {
+
+  margin-top: 100px;
+}
+
+main{
+
+  background-color: green;
+}
+footer{
+
+  background-color: red;
+}
+
+img {
+width: 100px;
+height: 40px;
+object-fit: fill;
+background-color: red;
+object-position: right;
+
+}
+nav{
+
+
+}
+
+a{
+
+
+
 }
