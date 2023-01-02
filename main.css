@@ -11,7 +11,7 @@ footer {
   width: 800px;
   margin-left: calc(50% - 400px);
   margin-bottom: 30px;
-  background-color: yellow;
+  
 }
 
 header {
@@ -58,7 +58,6 @@ div{
 
 h1{
   font-size: 50px;
-  color: red;
   font-weight: normal;
 
 
@@ -70,10 +69,23 @@ p{
 
 }
 div > a{
-background-color: red;
+float: left;
+text-transform: uppercase;
+background-color: #662C8C;
+padding: 0.9em;
+text-decoration: none;
+color: #fff;
+font-size: 14px;
+line-height: 1.3em;
+padding-right: 2em;
+padding-left: 2em;
+border-radius: 1.55em;
 }
 div > a:nth-child(4){
-background-color: blue;
+  background-color: #fff;
+  color: #662C8C;
+  border: 0.15em solid #662C8C;
+
 }
 
 main > img{
