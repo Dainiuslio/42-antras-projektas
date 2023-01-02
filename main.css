@@ -26,7 +26,7 @@ header > img {
   object-position: left;
 }
 
-nav {
+nav > a {
   float: right;
   margin-top: 10px;
 }
@@ -40,11 +40,11 @@ a {
   text-decoration: none;
 }
 
-a:first-child {
+nav > a:first-child {
   margin-left: 0;
 }
 
-a:hover {
+nav > a:hover {
   text-decoration: underline;
 }
 main{
@@ -61,11 +61,11 @@ h1{
 p{
 
 }
-a{
-
+div > a{
+background-color: red;
 }
-a{
-
+div > a:nth-child(4){
+background-color: blue;
 }
 
 main > img{
