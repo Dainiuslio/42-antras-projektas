@@ -51,13 +51,21 @@ main{
 
 }
 div{
+  width: 40%;
+  float: left;
 
 }
 
 h1{
+  font-size: 50px;
+  color: red;
+  font-weight: normal;
+
 
 }
-
+h1 > span {
+  font font-weight: bold;
+}
 p{
 
 }
@@ -69,6 +77,6 @@ background-color: blue;
 }
 
 main > img{
-  width: 50%;
+  width: 55%;
 
 }
