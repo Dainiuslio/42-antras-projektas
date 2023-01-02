@@ -8,10 +8,9 @@ header,
 main,
 footer {
   display: inline-block;
-  width: 800px;
-  margin-left: calc(50% - 400px);
+  width: 1000px;
+  margin-left: calc(50% - 500px);
   margin-bottom: 30px;
-  
 }
 
 header {
@@ -26,12 +25,12 @@ header > img {
   object-position: left;
 }
 
-nav > a {
+nav {
   float: right;
   margin-top: 10px;
 }
 
-a {
+nav > a {
   display: inline-block;
   margin-left: 2em;
   color: #000;
@@ -47,48 +46,57 @@ nav > a:first-child {
 nav > a:hover {
   text-decoration: underline;
 }
-main{
 
+main {
 }
-div{
+
+div {
   width: 40%;
   float: left;
-
 }
 
-h1{
+h1 {
   font-size: 50px;
+  color: #222222;
   font-weight: normal;
-
-
 }
 h1 > span {
-  font font-weight: bold;
+  display: block;
+  font-weight: bold;
 }
-p{
 
+p {
+  font-size: 20px;
 }
-div > a{
-float: left;
-text-transform: uppercase;
-background-color: #662C8C;
-padding: 0.9em;
-text-decoration: none;
-color: #fff;
-font-size: 14px;
-line-height: 1.3em;
-padding-right: 2em;
-padding-left: 2em;
-border-radius: 1.55em;
+
+div > a {
+  float: left;
+  padding: 0.9em;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  background-color: #662c8c;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.3em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 1.7em;
+  border: 0.15em solid #662c8c;
 }
-div > a:nth-child(4){
+
+div > a:last-child {
   background-color: #fff;
-  color: #662C8C;
-  border: 0.15em solid #662C8C;
-
+  color: #662c8c;
 }
 
-main > img{
-  width: 55%;
+/* div > a:hover { */
+div > a {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
 
+main > img {
+  width: 55%;
+  float: right;
 }
