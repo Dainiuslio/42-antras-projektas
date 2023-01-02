@@ -47,8 +47,6 @@ nav > a:hover {
   text-decoration: underline;
 }
 
-main {
-}
 
 div {
   width: 40%;
@@ -92,9 +90,7 @@ div > a:last-child {
 }
 
 /* div > a:hover { */
-div > a {
-  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-}
+
 
 main > img {
   width: 55%;
